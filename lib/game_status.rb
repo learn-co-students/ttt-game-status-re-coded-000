@@ -43,7 +43,7 @@ end
 end
 #================================================
 def winner(board)
- if winning_combo = won?(board)
-  board[winning_combo.first]
+ if combo = won?(board)
+  board[combo[0]]
  end
  end
